@@ -93,7 +93,7 @@ Light → LDR resistance → Voltage divider → ADC
 
 ---
 
-## 📊 Results
+## Results
 
 | Condition    | ADC Value | Voltage | LED Behavior |
 | ------------ | --------- | ------- | ------------ |
