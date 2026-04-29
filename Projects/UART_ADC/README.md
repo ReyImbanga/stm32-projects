@@ -11,6 +11,7 @@ The system uses:
 - UART output for real-time monitoring
 
 A potentiometer is used as an analog input signal.
+
 ## System Architecture
            +-------------------+
            |   TIM3 (100 Hz)   |
@@ -30,7 +31,8 @@ A potentiometer is used as an analog input signal.
      +---------------+---------------+
      |                               |
      v                               v
- Half Buffer Ready           Full Buffer Ready
+    Half Buffer Ready           Full Buffer Ready
+            
      |                               |
      +---------------+---------------+
                      |
