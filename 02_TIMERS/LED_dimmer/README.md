@@ -262,7 +262,7 @@ This project was created to strengthen understanding of:
 
 ## Author
 Rey Imbanga
-Embedded Systems and Electronics Engineering
+- Embedded Systems and Electronics Engineering
 
 Focused on:
 
