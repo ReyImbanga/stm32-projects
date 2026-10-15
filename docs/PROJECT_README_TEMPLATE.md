@@ -35,6 +35,15 @@ Source → Stage → Stage → Output
 |---|---|---|
 | TIMx | prescaler, period | ... |
 
+## References
+
+Cite the exact source of every non-obvious value (limits, addresses, formulas). Use the document ID, the revision you read, and the section.
+
+| Document | ID and revision | Section used | Used for |
+|---|---|---|---|
+| STM32F103x8/xB datasheet | DS5319 Rev 20 | Table 5, pin definitions | Choosing the UART pins |
+| ... | ... | ... | ... |
+
 ## Build and run
 
 1. Open the folder in STM32CubeIDE (`File → Open Projects from File System…`).

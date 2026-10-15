@@ -5,10 +5,11 @@ Notes personnelles d'étude, basées sur le MOOC officiel ST
 
 > Les READMEs du reste du dépôt sont en anglais. Ce dossier est en français car c'est un carnet d'étude.
 
-## Profil et objectif
+## Profil et objectifs
 
 - **Apprenant** : ingénieur en électronique et systèmes embarqués.
-- **Objectif** : maîtriser l'écosystème STM32 en profondeur (registres, démarrage, HAL/LL, périphériques, débogage), pas seulement faire clignoter une LED.
+- **Objectif 1** : maîtriser l'écosystème STM32 en profondeur (registres, démarrage, HAL/LL, périphériques, débogage), pas seulement faire clignoter une LED.
+- **Objectif 2** : savoir **lire la documentation technique** de n'importe quel composant ou outil (datasheet, reference manual, errata, notes d'application), pour trouver seul l'information nécessaire à un projet.
 - **Méthode** : analogies, théorie courte, pratique d'abord, défis, progression étape par étape.
 
 ## Matériel et outils (confirmés)
@@ -36,17 +37,20 @@ Les dossiers `learning/` et `projects/` du dépôt montrent un niveau déjà ava
 | Fichier | Rôle |
 |---|---|
 | `README.md` | Cette page |
-| `PLAN_DE_COURS.md` | Feuille de route module par module |
-| `JOURNAL.md` | Carnet de bord : progression, questions, acquis |
-| `LECON_01.md` | Leçon 1 : carte mentale, chaîne d'outils, lecture du code généré |
+| `PLAN_DE_COURS.md` | Feuille de route module par module, avec les documents à consulter |
+| `GUIDE_LIRE_UNE_DATASHEET.md` | Méthode de lecture de la documentation, valable pour tout composant |
+| `JOURNAL.md` | Carnet de bord : progression, fiches de lecture, questions, acquis |
+| `LECON_01.md` | Leçon 1 : carte mentale, chaîne d'outils, lecture du code généré, premier réflexe documentation |
 
 ## Règles
 
-1. Une leçon = courte théorie imagée, pratique guidée, défis, contrôle de compréhension.
+1. Une leçon = courte théorie imagée, pratique guidée, défis, **📖 réflexe documentation**, contrôle de compréhension.
 2. Les erreurs font partie du cours : on les montre et on les débogue.
 3. Les acquis et les doutes se notent dans `JOURNAL.md`.
 4. Aucune ligne de code sans explication de sa raison d'être.
 5. Les exercices terminés vont dans `learning/`, les réalisations documentées dans `projects/`.
+6. **Je te donne l'adresse, pas la réponse** : pour toute information technique, je t'indique le document et le chapitre, tu cherches, puis nous vérifions. Indices progressifs, après 10 minutes de recherche.
+7. Toute valeur notée dans le journal ou dans un README porte sa source (identifiant, révision, section).
 
 ## Sources
 
