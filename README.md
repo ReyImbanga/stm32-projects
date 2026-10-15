@@ -49,7 +49,7 @@ stm32-projects/
 | I²C | [`oled-ssd1306`](learning/05-i2c/oled-ssd1306) | Exercise |
 | Registers | [`baremetal-gpio`](learning/06-registers/baremetal-gpio) | Skeleton |
 
-The study plan follows ST's free MOOC *Moving from 8 to 32 bits workshop – first steps in STM32*, adapted from the Nucleo-F072RB/Keil setup to the Blue Pill/STM32CubeIDE, then extended with deeper modules. See [`learning/00-course`](learning/00-course).
+The study plan follows ST's free MOOC *Moving from 8 to 32 bits workshop – first steps in STM32*, adapted from the Nucleo-F072RB/Keil setup to the Blue Pill/STM32CubeIDE, then extended with deeper modules. It also trains **datasheet and reference-manual reading**: each lesson points to the exact documents to consult, and every non-obvious value in the READMEs cites its source (document ID, revision, section). See [`learning/00-course`](learning/00-course).
 
 ## Getting started
 

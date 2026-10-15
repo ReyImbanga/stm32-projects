@@ -26,6 +26,14 @@ Do not commit: `Debug/`, `Release/`, `*.elf`, `*.map`, `*.o`, `.metadata/`, `.se
 
 Copy [`PROJECT_README_TEMPLATE.md`](PROJECT_README_TEMPLATE.md). Minimum content: overview, hardware and pins, how it works, status, how to run it. Add a photo or a schematic when one exists.
 
+## Documentation references
+
+Every non-obvious value in a README or in code comments (a current limit, a register address, a timing, a formula) names its source: the **document ID, the revision you read, and the section or table**. Example: `DS5319 Rev 20, Table 7 (current characteristics)`.
+
+- Link to the manufacturer's official page or PDF, not to mirror sites.
+- Do not commit vendor PDFs: they are copyrighted and heavy. Cite the ID, the revision and the official link instead.
+- Your own documents (schematics, photos, measurements) can be committed.
+
 Use one of these statuses:
 
 | Status | Meaning |
